@@ -27,6 +27,11 @@ def handle_input(inp : any) -> any:
 	print(f"{digits} digits")
 
 def building() -> any:
+	"""
+	Read until EOF error
+	Then count the give characters to match the output
+	exit after reading all
+	"""
 	if (len(sys.argv) > 1):
 		inp = sys.argv[1]
 	else:
