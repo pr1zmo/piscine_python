@@ -57,10 +57,8 @@ def ft_green(array) -> list:
 def ft_blue(array) -> list:
 	"""
 	Applies a blue filter by zeroing out the red and green channels.
-	
 	Args:
 		array: RGB image as numpy array with shape (H, W, 3)
-	
 	Returns:
 		Blue-filtered image array
 	"""
