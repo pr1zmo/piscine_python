@@ -4,7 +4,7 @@ from matplotlib.ticker import MaxNLocator
 
 def life():
 	# 1) Load the CSV file into a DataFrame
-	fl = pd.read_csv("life_expectancy_years.csv")
+	fl = load("life_expectancy_years.csv")
 	# → Reads your CSV into a pandas DataFrame called 'fl'
 	#   Each column becomes a labeled Series (e.g., years),
 	#   and the first column (countries) contains the country names.
